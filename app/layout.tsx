@@ -1,26 +1,56 @@
-import type { Metadata, Viewport } from "next";
-import "@fontsource/bricolage-grotesque/500.css";
-import "@fontsource/bricolage-grotesque/700.css";
-import "@fontsource/hanken-grotesk/400.css";
-import "@fontsource/hanken-grotesk/500.css";
-import "@fontsource/hanken-grotesk/700.css";
+import type { Metadata } from "next";
+import { Libre_Franklin, Source_Serif_4, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
-import { site } from "@/data/site";
+import Providers from "./providers";
+
+const head = Libre_Franklin({
+  subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-head",
+});
+
+const body = Source_Serif_4({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-body",
+});
+
+const mono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-mono",
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
-  title: `${site.name} – ${site.role}`,
-  description: site.intro,
-  openGraph: { title: site.name, description: site.role + " based in " + site.location, url: site.url, type: "website", images: ["/photo.jpg"] },
+  title: "Ujwal Bagalkoti — Software Developer",
+  description:
+    "Portfolio of Ujwal Bagalkoti, a full-stack developer in Bengaluru building web applications with React, Next.js, Node, and Python.",
+  openGraph: {
+    title: "Ujwal Bagalkoti — Software Developer",
+    description:
+      "Full-stack developer in Bengaluru building web applications with React, Next.js, Node, and Python.",
+    type: "website",
+  },
 };
-export const viewport: Viewport = { themeColor: "#0C1B2E" };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+const themeScript = `(function(){try{var t=localStorage.getItem("theme");if(!t){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}if(t==="dark")document.documentElement.classList.add("dark")}catch(e){}})();`;
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en">
-      <body>
-        <a href="#projects" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-sun focus:px-3 focus:py-2">Skip to projects</a>
-        {children}
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${head.variable} ${body.variable} ${mono.variable}`}
+    >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
+      <body className="bg-paper dark:bg-night min-h-screen transition-colors">
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

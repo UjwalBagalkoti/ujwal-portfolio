@@ -2,11 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-html { scroll-behavior: smooth; }
-body { @apply bg-chalk text-ink font-sans antialiased; }
-:focus-visible { outline: 3px solid #2437E8; outline-offset: 3px; border-radius: 2px; }
-.on-dark :focus-visible { outline-color: #FFC83D; }
-::selection { background: #FFC83D; color: #0F1B26; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
-@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-.rise { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fafaf8;
+  color: #17211c;
+}
+
+.dark body {
+  background-color: #111a15;
+  color: #f3efe3;
+}
+
+::selection {
+  background-color: #1f7a5c;
+  color: #fafaf8;
+}
+
+:focus-visible {
+  outline: 2px solid #1f7a5c;
+  outline-offset: 3px;
+}
+
+.dark :focus-visible {
+  outline-color: #2e9974;
+}
