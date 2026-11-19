@@ -50,6 +50,7 @@ export const projects: Project[] = [
     description:
       "A full-stack health-tracking application with email login, four daily reading slots, input validation, daily and monthly reports, and trend visualization. Includes API tests with Jest, component tests with Vitest, and a Docker Compose setup.",
     stack: ["React", "Node.js", "Express", "Prisma", "PostgreSQL"],
+    live: "https://sweety-blood-glucose-tracker-ujwal.vercel.app",
     repo: "https://github.com/UjwalBagalkoti/sweety-blood-glucose-tracker",
   },
   {
