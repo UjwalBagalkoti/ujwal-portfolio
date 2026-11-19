@@ -40,10 +40,11 @@ export default function Hero() {
           </p>
 
           <p className="mt-8 max-w-prose font-body text-lg leading-relaxed text-ink dark:text-cream/90">
-            I build web applications end to end — React and Next.js on the
-            front, Python, Node, and SQL underneath, with AI features where they
-            help. Most of what&apos;s below started as a way to learn something
-            new and ended up shipped.
+            I build and ship full-stack software, from responsive React and
+            Next.js interfaces to Python and Node.js APIs backed by SQL
+            databases. I’m especially interested in developer tools and
+            practical AI products—and I care about making the systems behind
+            them reliable, testable, and useful.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 font-mono text-sm">
