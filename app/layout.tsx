@@ -22,6 +22,7 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ujwal-portfolio-bice.vercel.app"),
   title: "Ujwal Bagalkoti | Full-Stack Developer & AI Engineer",
   description:
     "Explore Ujwal Bagalkoti’s software engineering portfolio: full-stack applications, Python and Node.js backends, AI/ML projects, and developer tools. Based in Bengaluru, India.",
@@ -30,6 +31,7 @@ export const metadata: Metadata = {
     description:
       "Software engineering projects spanning React, Next.js, Python, Node.js, backend APIs, and practical AI products.",
     type: "website",
+    images: ["/photo.jpg"],
   },
 };
 

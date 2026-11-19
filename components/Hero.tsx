@@ -14,8 +14,12 @@ export default function Hero() {
   return (
     <header className="max-w-layout mx-auto px-6 pt-10 pb-16 sm:pt-16 sm:pb-24">
       <div className="flex items-center justify-between mb-16 sm:mb-24">
-        <span className="font-mono text-xs text-ink-soft dark:text-cream/60">
-          Bengaluru, India
+        <span className="flex flex-wrap items-center gap-x-4 gap-y-1 font-mono text-xs text-ink-soft dark:text-cream/60">
+          <span>Bengaluru, India</span>
+          <span className="inline-flex items-center gap-2">
+            <span aria-hidden className="h-2 w-2 rounded-full bg-accent dark:bg-accent-bright" />
+            Open to full-stack and backend roles
+          </span>
         </span>
         <ThemeToggle />
       </div>
