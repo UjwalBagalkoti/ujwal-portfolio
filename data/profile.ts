@@ -30,8 +30,8 @@ export const languages = ["English", "Kannada", "Hindi", "Marathi"];
 export const skills = [
   { group: "Languages", items: ["Python", "Java", "JavaScript", "TypeScript", "SQL"] },
   { group: "Back end & APIs", items: ["Flask", "FastAPI", "Node.js", "Express.js", "REST API design", "Redis"] },
-  { group: "Front end", items: ["React.js", "Next.js", "Tailwind CSS", "HTML5", "CSS3"] },
+  { group: "Front end", items: ["React.js", "Next.js", "Angular", "Redux", "Tailwind CSS", "HTML5", "CSS3"] },
   { group: "Databases", items: ["MySQL", "PostgreSQL"] },
-  { group: "AI / ML", items: ["OpenAI API", "Gemini API", "Prompt engineering", "PyTorch", "CNN", "NLP"] },
+  { group: "AI / ML", items: ["OpenAI API", "Gemini API", "Prompt engineering", "Machine learning", "PyTorch", "CNN", "GAN", "Computer vision", "NLP", "Pandas", "NumPy"] },
   { group: "Practice", items: ["OOP", "Data structures & algorithms", "Debugging", "Software testing", "Git & GitHub", "Vercel"] },
 ];
