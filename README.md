@@ -106,6 +106,3 @@ Update these files to keep the portfolio content current.
 - **GitHub:** [github.com/UjwalBagalkoti](https://github.com/UjwalBagalkoti)
 - **LinkedIn:** [linkedin.com/in/ujwal-bagalkoti](https://www.linkedin.com/in/ujwal-bagalkoti)
 
----
-
-If you are interested in software engineering, full-stack development, or AI-powered products, feel free to connect.
