@@ -17,10 +17,12 @@ export default function Projects() {
             </ul>
           </div>
           <div className="flex gap-3 text-sm font-medium sm:flex-col sm:items-stretch">
-            <a href={p.live} target="_blank" rel="noreferrer" aria-label={`${p.name} live demo`}
-              className="rounded-full bg-cobalt px-5 py-2.5 text-center text-white hover:bg-ink">Live demo</a>
+            {p.live && (
+              <a href={p.live} target="_blank" rel="noreferrer" aria-label={`${p.name} live demo`}
+                className="rounded-full bg-cobalt px-5 py-2.5 text-center text-white hover:bg-ink">Live demo</a>
+            )}
             <a href={p.repo} target="_blank" rel="noreferrer" aria-label={`${p.name} source on GitHub`}
-              className="rounded-full border border-ink/30 px-5 py-2.5 text-center hover:border-cobalt hover:text-cobalt">Source</a>
+              className={`rounded-full px-5 py-2.5 text-center ${p.live ? "border border-ink/30 hover:border-cobalt hover:text-cobalt" : "bg-cobalt text-white hover:bg-ink"}`}>Source</a>
           </div>
         </li>
       ))}
