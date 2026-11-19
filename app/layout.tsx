@@ -22,13 +22,13 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ujwal Bagalkoti — Software Developer",
+  title: "Ujwal Bagalkoti | Full-Stack Developer & AI Engineer",
   description:
-    "Portfolio of Ujwal Bagalkoti, a full-stack developer in Bengaluru building web applications with React, Next.js, Node, and Python.",
+    "Explore Ujwal Bagalkoti’s software engineering portfolio: full-stack applications, Python and Node.js backends, AI/ML projects, and developer tools. Based in Bengaluru, India.",
   openGraph: {
-    title: "Ujwal Bagalkoti — Software Developer",
+    title: "Ujwal Bagalkoti | Full-Stack Developer & AI Engineer",
     description:
-      "Full-stack developer in Bengaluru building web applications with React, Next.js, Node, and Python.",
+      "Software engineering projects spanning React, Next.js, Python, Node.js, backend APIs, and practical AI products.",
     type: "website",
   },
 };
