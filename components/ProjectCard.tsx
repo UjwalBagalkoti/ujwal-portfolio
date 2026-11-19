@@ -1,7 +1,9 @@
 import type { Project } from "@/data/projects";
 
-const linkClass =
-  "text-accent dark:text-accent-bright underline underline-offset-4 decoration-line hover:decoration-accent dark:hover:decoration-accent-bright";
+const primaryBtn =
+  "inline-flex items-center gap-1 rounded-md bg-accent px-3.5 py-1.5 text-white hover:bg-accent-dim dark:bg-accent-bright dark:text-night dark:hover:bg-accent";
+const ghostBtn =
+  "inline-flex items-center gap-1 rounded-md border border-line dark:border-night-line px-3.5 py-1.5 text-ink dark:text-cream hover:border-accent dark:hover:border-accent-bright";
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
@@ -23,15 +25,15 @@ export default function ProjectCard({ project }: { project: Project }) {
         ))}
       </ul>
       {(project.live || project.repo) && (
-        <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1 font-mono text-xs">
+        <div className="mt-4 flex flex-wrap gap-3 font-mono text-xs">
           {project.live && (
-            <a href={project.live} target="_blank" rel="noreferrer" className={linkClass}>
-              live demo ↗
+            <a href={project.live} target="_blank" rel="noreferrer" className={primaryBtn}>
+              Live demo ↗
             </a>
           )}
           {project.repo && (
-            <a href={project.repo} target="_blank" rel="noreferrer" className={linkClass}>
-              source ↗
+            <a href={project.repo} target="_blank" rel="noreferrer" className={project.live ? ghostBtn : primaryBtn}>
+              Source ↗
             </a>
           )}
         </div>
