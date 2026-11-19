@@ -14,7 +14,7 @@ export const projects: Project[] = [
     description:
       "A debugging tool for AI-agent workflows. Records execution traces, visualizes steps and tool calls, and lets developers inspect earlier states, change inputs, then fork and replay a run using cached tool outputs.",
     stack: ["Next.js", "React Flow", "FastAPI", "PostgreSQL", "Python SDK"],
-    live: "https://ai-time-travel-debugger.onrender.com",
+    live: "https://ai-time-travel-debugger-9gct.vercel.app",
     repo: "https://github.com/UjwalBagalkoti/ai-time-travel-debugger",
   },
   {
