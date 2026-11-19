@@ -1,64 +1,86 @@
 <h1 align="center">Ujwal Bagalkoti — Developer Portfolio</h1>
 
 <p align="center">
-  <strong>Full-Stack Developer | AI/ML Projects | Backend Engineering</strong>
+  <strong>Full-Stack Developer · AI/ML · Backend Engineering</strong>
   <br />
-  Building practical web applications, AI-powered tools, and developer-focused products.
+  Building useful web applications, AI-powered tools, and reliable backend systems.
   <br /><br />
-  <a href="https://ujwal-portfolio-tau.vercel.app/">Live Portfolio</a> ·
-  <a href="https://github.com/UjwalBagalkoti">GitHub</a> ·
+  <a href="https://ujwal-portfolio-tau.vercel.app/"><strong>Explore Live Portfolio</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/UjwalBagalkoti">GitHub</a>
+  &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/ujwal-bagalkoti">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:uabagalkoti@gmail.com">Email</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-14-black?logo=next.js" alt="Next.js 14" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" alt="React 18" />
+  <img src="https://img.shields.io/badge/TypeScript-5.5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel" alt="Deployed on Vercel" />
 </p>
 
 ---
 
-## About
+## About This Project
 
-This repository contains my personal developer portfolio. It presents selected projects, technical skills, education, experience, and ways to contact me.
+This repository contains my personal developer portfolio: a single place to explore my selected projects, technical skills, education, experience, and contact details.
 
-I am a Computer Science graduate focused on full-stack development, Python backends, and applied AI/ML. I enjoy taking ideas from problem definition through implementation and deployment.
+The portfolio is built with **Next.js, React, TypeScript, and Tailwind CSS**. Its content is maintained in separate data files, making it straightforward to update projects and profile information without rewriting the page components.
 
 ## Featured Projects
 
-The portfolio currently highlights these six projects:
+These are the six projects currently showcased in the portfolio.
 
-| Project | What it does | Technologies |
-| --- | --- | --- |
-| [AI Time-Travel Debugger](https://github.com/UjwalBagalkoti/ai-time-travel-debugger) | Records AI-agent executions so you can inspect steps, rewind state, and fork/replay execution paths. [Live demo](https://ai-time-travel-debugger.onrender.com) | Next.js, React Flow, FastAPI, PostgreSQL, Python SDK |
-| [UPI Fraud Detection](https://github.com/UjwalBagalkoti/upi-fraud-detection) | Evaluates UPI transactions and returns Allow / Review / Block decisions with human-readable reasons. [Live demo](https://upi-fraud-detection-frontend.onrender.com/) | Flask, scikit-learn, SQLAlchemy, React, PostgreSQL |
-| [Fake Face Detection System](https://github.com/UjwalBagalkoti/Fake-Face-Detection-System) | Detects manipulated images and videos using spatial, frequency-domain, and temporal evidence. [Live demo](https://fake-face-detection-system.onrender.com/) | Python, PyTorch, EfficientNet, FastAPI |
-| [Career Copilot](https://github.com/UjwalBagalkoti/career-copilot) | Helps compare a resume with a job description, identify skill gaps, tailor resume bullets, and practise interviews. [Live demo](https://career-copilot-lemon.vercel.app/) | React, Vite, Vercel Serverless Functions, Gemini API |
-| [Sweety Blood Glucose Tracker](https://github.com/UjwalBagalkoti/sweety-blood-glucose-tracker) | Tracks daily glucose readings and provides daily/monthly reports and trend visualisation. | React, Node.js, Express, Prisma, PostgreSQL |
-| [Starlight Drift](https://github.com/UjwalBagalkoti/starlight-drift) | An arcade survival game featuring combos, power-ups, enemies, and boss levels. [Play](https://starlight-drift.vercel.app) | Phaser 3, JavaScript, HTML5 |
+| Project | Overview | Built with | Links |
+| --- | --- | --- | --- |
+| **AI Time-Travel Debugger** | Records AI-agent executions so individual steps can be inspected, state can be rewound, and execution paths can be forked and replayed. | Next.js, React Flow, FastAPI, PostgreSQL, Python SDK | [Code](https://github.com/UjwalBagalkoti/ai-time-travel-debugger) · [Live](https://ai-time-travel-debugger.onrender.com) |
+| **UPI Fraud Detection** | Evaluates UPI transactions and returns an Allow / Review / Block decision with human-readable reasons. | Flask, scikit-learn, SQLAlchemy, React, PostgreSQL | [Code](https://github.com/UjwalBagalkoti/upi-fraud-detection) · [Live](https://upi-fraud-detection-frontend.onrender.com/) |
+| **Fake Face Detection System** | Analyses image and video inputs using spatial, frequency-domain, and temporal evidence to identify manipulated media. | Python, PyTorch, EfficientNet, FastAPI | [Code](https://github.com/UjwalBagalkoti/Fake-Face-Detection-System) · [Live](https://fake-face-detection-system.onrender.com/) |
+| **Career Copilot** | Compares a resume with a job description, highlights skill gaps, suggests resume improvements, and supports interview practice. | React, Vite, Vercel Serverless Functions, Gemini API | [Code](https://github.com/UjwalBagalkoti/career-copilot) · [Live](https://career-copilot-lemon.vercel.app/) |
+| **Sweety Blood Glucose Tracker** | Tracks daily glucose readings and provides daily/monthly reports and trend visualisation. | React, Node.js, Express, Prisma, PostgreSQL | [Code](https://github.com/UjwalBagalkoti/sweety-blood-glucose-tracker) |
+| **Starlight Drift** | An arcade survival game with combos, power-ups, enemies, and boss levels. | Phaser 3, JavaScript, HTML5 | [Code](https://github.com/UjwalBagalkoti/starlight-drift) · [Play](https://starlight-drift.vercel.app) |
 
-## Tech Stack
+## Technical Skills
 
-- **Languages:** Python, JavaScript, TypeScript, Java, SQL
-- **Frontend:** React, Next.js, HTML, CSS, Tailwind CSS
-- **Backend:** FastAPI, Flask, Node.js, Express, REST APIs
-- **Databases:** PostgreSQL, SQL
-- **AI/ML:** PyTorch, scikit-learn, Gemini API
-- **Tools & Platforms:** Git, GitHub, Docker, Vercel, Render
+| Area | Technologies |
+| --- | --- |
+| **Languages** | Python, Java, JavaScript, TypeScript, SQL |
+| **Frontend** | React.js, Next.js, Angular, Redux, Tailwind CSS, HTML5, CSS3 |
+| **Backend & APIs** | Flask, FastAPI, Node.js, Express.js, REST API design, Redis |
+| **Databases** | PostgreSQL, MySQL |
+| **AI / ML** | OpenAI API, Gemini API, machine learning, CNNs, GANs, computer vision, NLP, Pandas, NumPy |
+| **Core concepts** | OOP, data structures & algorithms, SDLC, debugging, software testing |
+| **Tools** | Git, GitHub, VS Code, Vercel |
 
-## Portfolio Tech
+## Portfolio Features
 
-This portfolio is built with:
+- **Project showcase** with descriptions, technology stacks, source repositories, and live demos where available.
+- **Project category filtering** to browse work by area.
+- **Light and dark themes** for comfortable viewing.
+- **Profile sections** for experience, education, skills, and contact information.
+- **Responsive interface** built with reusable React components.
+- **Centralised content data** so profile updates stay separate from presentation logic.
 
-- Next.js 14 (App Router)
-- React 18 and TypeScript
-- Tailwind CSS
-- Redux Toolkit and React Redux
+## Built With
 
-The Redux UI slice manages the theme and selected-project category filter.
+- [Next.js 14](https://nextjs.org/) — App Router and application framework
+- [React 18](https://react.dev/) — UI components
+- [TypeScript](https://www.typescriptlang.org/) — typed application code
+- [Tailwind CSS 3](https://tailwindcss.com/) — styling
+- [Redux Toolkit](https://redux-toolkit.js.org/) and [React Redux](https://react-redux.js.org/) — shared UI state
+- [Vercel](https://vercel.com/) — deployment
 
 ## Run Locally
 
-### Prerequisites
+### Requirements
 
 - Node.js (LTS recommended)
 - npm
 
-### Setup
+### Installation
 
 ```bash
 git clone https://github.com/UjwalBagalkoti/ujwal-portfolio.git
@@ -67,42 +89,44 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000).
 
-### Available Scripts
+### Available Commands
 
-| Command | Description |
+| Command | Purpose |
 | --- | --- |
-| `npm run dev` | Starts the local development server |
-| `npm run build` | Creates a production build |
-| `npm run start` | Starts the production server |
-| `npm run lint` | Runs the configured Next.js lint command |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create an optimised production build |
+| `npm run start` | Start the production server |
+| `npm run lint` | Run the configured Next.js lint command |
 
-## Project Structure
+## Repository Structure
 
 ```
-app/             Next.js routes, layout, and global styles
-components/      Reusable portfolio sections and UI components
-data/            Portfolio content: projects, skills, education, experience, site
+app/             Next.js routes, root layout, and global styles
+components/      Reusable portfolio sections and interface components
+data/            Profile content: projects, skills, education, experience, links
 lib/             Redux store, UI slice, and typed hooks
-public/          Static assets, including the resume when present
+public/          Static assets, profile photo, and resume
 ```
 
-## Updating Portfolio Content
+## Update Portfolio Content
 
-Most portfolio information is maintained in the `data/` directory:
+Portfolio content is separated into the `data/` directory:
 
-- `data/site.ts` — contact details and profile links
-- `data/projects.ts` — project descriptions, technology stacks, repositories, and live demos
-- `data/skills.ts` — technical skills
-- `data/education.ts` — education details
-- `data/experience.ts` — experience details
+| File | What to update |
+| --- | --- |
+| `data/site.ts` | Name, email, GitHub, and LinkedIn |
+| `data/projects.ts` | Project summaries, categories, tech stacks, repository links, and demos |
+| `data/skills.ts` | Skill groups and technologies |
+| `data/education.ts` | Education and certifications |
+| `data/experience.ts` | Work experience and descriptions |
 
-Update these files to keep the portfolio content current.
+To add or edit a project, update `data/projects.ts` and provide its repository and live-demo URLs when available.
 
 ## Contact
 
 - **Email:** [uabagalkoti@gmail.com](mailto:uabagalkoti@gmail.com)
-- **GitHub:** [github.com/UjwalBagalkoti](https://github.com/UjwalBagalkoti)
-- **LinkedIn:** [linkedin.com/in/ujwal-bagalkoti](https://www.linkedin.com/in/ujwal-bagalkoti)
-
+- **GitHub:** [UjwalBagalkoti](https://github.com/UjwalBagalkoti)
+- **LinkedIn:** [Ujwal Bagalkoti](https://www.linkedin.com/in/ujwal-bagalkoti)
+- **Portfolio:** [ujwal-portfolio-tau.vercel.app](https://ujwal-portfolio-tau.vercel.app/)
