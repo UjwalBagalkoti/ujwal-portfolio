@@ -25,16 +25,18 @@ export default function Education() {
         ))}
       </ul>
 
-      <div className="mt-10 grid gap-x-8 gap-y-6 font-body text-base text-ink-soft dark:text-cream/70 sm:grid-cols-[8rem_1fr]">
-        <h3 className="font-head font-semibold text-sm text-ink-soft dark:text-cream/60">
+      <div className="mt-12">
+        <h3 className="font-head font-bold text-xl sm:text-2xl text-ink dark:text-cream">
           Certifications
         </h3>
-        <ul className="space-y-1.5">
+        <ul className="mt-4 space-y-3 font-body text-lg sm:text-xl text-ink dark:text-cream">
           {certifications.map((cert) => (
             <li key={cert}>{cert}</li>
           ))}
         </ul>
+      </div>
 
+      <div className="mt-10 grid gap-x-8 gap-y-6 font-body text-base text-ink-soft dark:text-cream/70 sm:grid-cols-[8rem_1fr]">
         <h3 className="font-head font-semibold text-sm text-ink-soft dark:text-cream/60">
           Languages
         </h3>
