@@ -3,6 +3,7 @@ import { projects, more } from "@/data/projects";
 export default function Projects() {
   return (
     <>
+    <p className="-mt-4 mb-6 max-w-prose text-sm text-ink/70">Demos hosted on Render&apos;s free tier can take up to a minute to wake up on the first visit.</p>
     <ul className="divide-y divide-rule border-y border-rule">
       {projects.map((p) => (
         <li key={p.name} className="group grid gap-4 py-8 sm:grid-cols-[1fr_auto] sm:gap-10">
