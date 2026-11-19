@@ -1,7 +1,8 @@
-import { projects } from "@/data/projects";
+import { projects, more } from "@/data/projects";
 
 export default function Projects() {
   return (
+    <>
     <ul className="divide-y divide-rule border-y border-rule">
       {projects.map((p) => (
         <li key={p.name} className="group grid gap-4 py-8 sm:grid-cols-[1fr_auto] sm:gap-10">
@@ -24,5 +25,18 @@ export default function Projects() {
         </li>
       ))}
     </ul>
+    <div className="mt-10">
+      <h3 className="font-display text-xl font-bold">More on GitHub</h3>
+      <ul className="mt-3 space-y-2">
+        {more.map((m) => (
+          <li key={m.name} className="leading-relaxed">
+            <a href={m.href} target="_blank" rel="noreferrer" className="font-medium text-cobalt underline underline-offset-4 hover:text-ink">{m.name}</a>
+            <span className="text-ink/70"> – {m.note}</span>
+          </li>
+        ))}
+      </ul>
+      <p className="mt-4"><a href="https://github.com/UjwalBagalkoti" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4 hover:text-cobalt">All repositories on GitHub</a></p>
+    </div>
+    </>
   );
 }

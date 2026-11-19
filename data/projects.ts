@@ -65,3 +65,11 @@ export const projects: Project[] = [
     repo: gh + "Ultron-AI-Chatbot",
   },
 ];
+
+export const more = [
+  { name: "Silence Map", note: "Maps the least-documented places on OpenStreetMap using missing data as the signal.", href: "https://silence-map.vercel.app/" },
+  { name: "Starlight Drift", note: "Arcade survival game in Phaser 3 with combos, power-ups and bosses.", href: "https://starlight-drift.vercel.app" },
+  { name: "Meridian Employee Dashboard", note: "HR dashboard in React and TypeScript with an in-browser AI summarizer.", href: "https://meridian-employee-dashboard.vercel.app/" },
+  { name: "Weather Monitor", note: "Live weather dashboard built with Chart.js and Open-Meteo.", href: "https://weather-monitor-vert.vercel.app" },
+  { name: "Sweety Blood Glucose Tracker", note: "Auth, Prisma and PostgreSQL tracker with API and UI tests.", href: "https://github.com/UjwalBagalkoti/sweety-blood-glucose-tracker" },
+];
