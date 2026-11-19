@@ -67,9 +67,14 @@ export const projects: Project[] = [
 ];
 
 export const more = [
-  { name: "Silence Map", note: "Maps the least-documented places on OpenStreetMap using missing data as the signal.", href: "https://silence-map.vercel.app/" },
+  { name: "Silence Map", note: "Maps the least-documented places on OpenStreetMap, using missing data as the signal.", href: "https://silence-map.vercel.app/" },
+  { name: "Meridian Employee Dashboard", note: "HR dashboard in React and TypeScript with attendance, leave and an in-browser AI summarizer.", href: "https://meridian-employee-dashboard.vercel.app/" },
+  { name: "TechLedger", note: "India CTC take-home calculator for FY 2024–25 that compares the old and new tax regimes.", href: "https://ctc-calculator-india.vercel.app" },
+  { name: "Resume Screening Agent", note: "Ranks resumes against a job description with TF-IDF similarity and plain-English reasons.", href: gh + "resume-screening-agent" },
+  { name: "AI Resume Analyzer", note: "Streamlit and spaCy app that extracts skills, scores a resume and suggests courses.", href: gh + "AI-Resume-Analyzer" },
   { name: "Starlight Drift", note: "Arcade survival game in Phaser 3 with combos, power-ups and bosses.", href: "https://starlight-drift.vercel.app" },
-  { name: "Meridian Employee Dashboard", note: "HR dashboard in React and TypeScript with an in-browser AI summarizer.", href: "https://meridian-employee-dashboard.vercel.app/" },
-  { name: "Weather Monitor", note: "Live weather dashboard built with Chart.js and Open-Meteo.", href: "https://weather-monitor-vert.vercel.app" },
-  { name: "Sweety Blood Glucose Tracker", note: "Auth, Prisma and PostgreSQL tracker with API and UI tests.", href: "https://github.com/UjwalBagalkoti/sweety-blood-glucose-tracker" },
+  { name: "Weather Monitor", note: "Live weather dashboard styled like an instrument console, using Open-Meteo.", href: "https://weather-monitor-vert.vercel.app" },
+  { name: "Sweety Blood Glucose Tracker", note: "Full-stack tracker with JWT auth, Prisma, PostgreSQL and API and UI tests.", href: gh + "sweety-blood-glucose-tracker" },
+  { name: "Simplified Trading Bot", note: "Python CLI that places orders on Binance Futures Testnet with validation and logging.", href: gh + "simplified-trading-bot" },
+  { name: "ShopApp UI", note: "Mobile-style shopping app UI in React with onboarding, cart and checkout flow.", href: "https://shop-app-ui-delta.vercel.app/onboarding" },
 ];
