@@ -12,13 +12,13 @@ export const experience: ExperienceItem[] = [
     org: "Global Quest Technologies",
     period: "Feb – May 2026",
     summary:
-      "Built and debugged Python applications, wrote and ran tests, and worked with the team to ship features while keeping the codebase reliable.",
+      "Worked on Python application development and debugging, wrote and executed tests, and collaborated with the team to deliver features while maintaining code quality and reliability.",
   },
   {
     role: "Full Stack Development Intern",
     org: "Athreya Technologies",
     period: "Feb – Jun 2023",
     summary:
-      "A 640-hour internship building web application features, integrating REST APIs, and handling debugging, testing, and deployment with Git.",
+      "Completed a 640-hour internship focused on building web-application features, integrating REST APIs, and supporting debugging, testing, and Git-based deployment workflows.",
   },
 ];
