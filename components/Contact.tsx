@@ -10,8 +10,10 @@ export default function Contact() {
         Get in touch
       </h2>
       <p className="max-w-prose font-body text-lg leading-relaxed text-ink-soft dark:text-cream/70 mb-8">
-        Open to full-stack and backend roles in Bengaluru or remote.
-        {site.email ? " The fastest way to reach me is email." : ""}
+        I’m interested in software engineering opportunities across full-stack
+        development, backend engineering, and AI-enabled products. Based in
+        Bengaluru and open to remote opportunities. The fastest way to reach
+        me is email.
       </p>
 
       <div className="flex flex-wrap gap-x-8 gap-y-3 font-mono text-sm">
