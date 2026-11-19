@@ -34,14 +34,14 @@ The portfolio is built with **Next.js, React, TypeScript, and Tailwind CSS**. It
 
 These are the six projects currently showcased in the portfolio.
 
-| Project | Overview | Built with | Links |
-| --- | --- | --- | --- |
-| **AI Time-Travel Debugger** | Records AI-agent executions so individual steps can be inspected, state can be rewound, and execution paths can be forked and replayed. | Next.js, React Flow, FastAPI, PostgreSQL, Python SDK | [Code](https://github.com/UjwalBagalkoti/ai-time-travel-debugger) · [Live](https://ai-time-travel-debugger.onrender.com) |
-| **UPI Fraud Detection** | Evaluates UPI transactions and returns an Allow / Review / Block decision with human-readable reasons. | Flask, scikit-learn, SQLAlchemy, React, PostgreSQL | [Code](https://github.com/UjwalBagalkoti/upi-fraud-detection) · [Live](https://upi-fraud-detection-frontend.onrender.com/) |
-| **Fake Face Detection System** | Analyses image and video inputs using spatial, frequency-domain, and temporal evidence to identify manipulated media. | Python, PyTorch, EfficientNet, FastAPI | [Code](https://github.com/UjwalBagalkoti/Fake-Face-Detection-System) · [Live](https://fake-face-detection-system.onrender.com/) |
-| **Career Copilot** | Compares a resume with a job description, highlights skill gaps, suggests resume improvements, and supports interview practice. | React, Vite, Vercel Serverless Functions, Gemini API | [Code](https://github.com/UjwalBagalkoti/career-copilot) · [Live](https://career-copilot-lemon.vercel.app/) |
-| **Sweety Blood Glucose Tracker** | Tracks daily glucose readings and provides daily/monthly reports and trend visualisation. | React, Node.js, Express, Prisma, PostgreSQL | [Code](https://github.com/UjwalBagalkoti/sweety-blood-glucose-tracker) |
-| **Starlight Drift** | An arcade survival game with combos, power-ups, enemies, and boss levels. | Phaser 3, JavaScript, HTML5 | [Code](https://github.com/UjwalBagalkoti/starlight-drift) · [Play](https://starlight-drift.vercel.app) |
+| Project | Overview | Built with | Live Demo | GitHub |
+| --- | --- | --- | --- | --- |
+| **AI Time-Travel Debugger** | Records AI-agent executions so individual steps can be inspected, state can be rewound, and execution paths can be forked and replayed. | Next.js, React Flow, FastAPI, PostgreSQL, Python SDK | [Live Demo](https://ai-time-travel-debugger.onrender.com) | [GitHub](https://github.com/UjwalBagalkoti/ai-time-travel-debugger) |
+| **UPI Fraud Detection** | Evaluates UPI transactions and returns an Allow / Review / Block decision with human-readable reasons. | Flask, scikit-learn, SQLAlchemy, React, PostgreSQL | [Live Demo](https://upi-fraud-detection-frontend.onrender.com/) | [GitHub](https://github.com/UjwalBagalkoti/upi-fraud-detection) |
+| **Fake Face Detection System** | Analyses image and video inputs using spatial, frequency-domain, and temporal evidence to identify manipulated media. | Python, PyTorch, EfficientNet, FastAPI | [Live Demo](https://fake-face-detection-system.onrender.com/) | [GitHub](https://github.com/UjwalBagalkoti/Fake-Face-Detection-System) |
+| **Career Copilot** | Compares a resume with a job description, highlights skill gaps, suggests resume improvements, and supports interview practice. | React, Vite, Vercel Serverless Functions, Gemini API | [Live Demo](https://career-copilot-lemon.vercel.app/) | [GitHub](https://github.com/UjwalBagalkoti/career-copilot) |
+| **Sweety Blood Glucose Tracker** | Tracks daily glucose readings and provides daily/monthly reports and trend visualisation. | React, Node.js, Express, Prisma, PostgreSQL | Not deployed yet | [GitHub](https://github.com/UjwalBagalkoti/sweety-blood-glucose-tracker) |
+| **Starlight Drift** | An arcade survival game with combos, power-ups, enemies, and boss levels. | Phaser 3, JavaScript, HTML5 | [Live Demo](https://starlight-drift.vercel.app) | [GitHub](https://github.com/UjwalBagalkoti/starlight-drift) |
 
 ## Technical Skills
 
