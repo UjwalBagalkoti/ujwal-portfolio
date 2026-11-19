@@ -1,4 +1,4 @@
-# Ujwal Bagalkoti — Developer Portfolio
+<h1 align="center">Ujwal Bagalkoti — Developer Portfolio</h1>
 
 <p align="center">
   <strong>Full-Stack Developer | AI/ML Projects | Backend Engineering</strong>
